@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="phonepe.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="container">
+        <div class="input-group">
+            <form id="form">
+                <h1 class="form-title">PhonePe</h1>
+                <hr>
+                <div class="input-box">
+                    <div class="input">
+                    <input type="text" class="amount" placeholder="Enter Amount" pattern="[0-9]{1,}" title="Enter Amount"> 
+                    
+                    <small class="error"></small>
+                </div>
+                </div>
+                <div class="input-box">
+                    <div class="input">
+                    <input type="password" class="password" placeholder="Enter Password">
+                    <i class="fa-solid fa-eye-slash"></i>
+                    <small class="error"></small>
+                    
+                </div>
+                <div class="button-box">
+                    <button type="submit"  class="btn">Pay</button>
+                </div>
+                <div class="loader-con">
+                    <div class="loader">
+                       
+                    </div>
+                </div>
+                <div class="mainError">
+                    
+                
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <script src="phonepe.js"></script>
+    
+</body>
+</html>
